@@ -1,0 +1,1 @@
+"use strict";function xuanran(n){console.log(n),n.list.forEach(function(n){var a="";a+='<div class="swiper-slide">'.concat(n,"</div>"),$(".swiper-wrapper").append(a);new Swiper(".swiper-container")})}$.ajax({url:"/getDate",dataType:"json",success:function(n){xuanran(n)}});
