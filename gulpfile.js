@@ -2,7 +2,7 @@
  * @Author: 王鑫磊 
  * @Date: 2018-12-03 08:52:04 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2018-12-03 10:07:54
+ * @Last Modified time: 2018-12-03 10:11:28
  */
 
 
@@ -70,6 +70,6 @@ gulp.task('uGlify',function(){
 // 9.	在gulp中创建default任务，默认执行browserSync服务，js，css，watch任务  10分
 gulp.task('default',gulp.parallel('devScss','uGlify','watch',"server"));
 
-
+//ok
 
 
